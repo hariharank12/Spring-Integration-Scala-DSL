@@ -1,0 +1,178 @@
+ 1468  git init
+ 1469  git add .
+ 1476  rm -f .git/
+ 1477  rm -rf .git/
+ 1479  git init
+ 1480  git add .
+ 1481  git commit -am "scala apache cxf sample service"
+ 1482  git git
+ 1483  git 
+ 1484  git target
+ 1485  git rm target
+ 1486  git rm -r target
+ 1487  vim .gitignore
+ 1488  git rm -r *
+ 1489  git rm -r 
+ 1490  git rm -r .cache
+ 1491  git rm -r .project
+ 1492  git rm -r .classpath
+ 1493  git rm -r src/
+ 1495  vim .gitignore 
+ 1496  rm -rf .git
+ 1499  git init
+ 1500  git commit -am "scala apache cxf sample service"
+ 1501  git add .
+ 1502  git commit -am "scala apache cxf sample service"
+ 1504  vim .gitignore 
+ 1505  rm -rf .git
+ 1506  git init
+ 1508  git status
+ 1509  git add .
+ 1510  git commit -m "scala apache cxf sample service"
+ 1511  rm -rf .git
+ 1512  mv .gitignore jitignore
+ 1515  git init
+ 1516  git add .
+ 1517  git commit -am "scala apache cxf sample service"
+ 1524  git
+ 1525  git show
+ 1527  git
+ 1528  git log 
+ 1529  git status
+ 1530  git ls
+ 1531  git ls-tree
+ 1532  git ls-tree --full-tree -r HEAD
+ 1533  git ls-tree --name-only
+ 1534  git ls-tree --name-only -r
+ 1535  git ls-tree --name-only -r HEAD
+ 1536  git ls-tree --full-tree -r HEAD
+ 1538  rm -rf .git/
+ 1541  git add .
+ 1542  git init
+ 1543  git init .
+ 1544  git add .
+ 1545  git commit -am "scala apache cxf webservice sample"
+ 1548  git add src
+ 1549  git commit -am "scala apache cxf webservice sample"
+ 1551  git clone ../.git/
+ 1552  git clone ../.git/ dumm
+ 1555  git checkout 
+ 1563  git
+ 1569  find . -name .gitignore
+ 1570  cd ./book/railsTutorial/sample_app/.gitignore
+ 1574  vim .gitignore 
+ 1577  git
+ 1578  git ls-tree --show-only -r HEAD
+ 1579  git ls-tree --full-tree -r HEAD
+ 1580  vim .gitignore 
+ 1587  cp /home/hariharank12/Documents/workspace-sts-3.1.0.RELEASE/ScalaCXFService/.gitignore ./
+ 1589  git init
+ 1590  git add .
+ 1591  git commit -am "scala webservice apache cxf sample"
+ 1596  git init
+ 1597  git add .
+ 1598  git commit -am "scala apache cxf sample webservice"
+ 1600  git ls-tree --full-tree
+ 1601  git ls-tree --full-tree -r HEAD
+ 1607  git 
+ 1608  git branch
+ 1609  git ls-tree
+ 1611  git add .
+ 1612  git commit -am "scala ap\"
+ 1613  git commit -am "scala ap"
+ 1614  git status
+ 1615  git checkout 
+ 1618  mcd gitTEst
+ 1619  git clone ../ScalaApacheCXFService/.git/ ./
+ 1622  rm -rf gitTEst/
+ 1626  rm -rf .git/
+ 1627  git status
+ 1628  mv ../jitignore ./.gitignore
+ 1631  git init
+ 1633  git add .
+ 1634  git commit . -m "first commit"
+ 1635  git commit .src -m "src commit"
+ 1636  git commit src -m "src commit"
+ 1637  git commit ./src -m "src commit"
+ 1639  git commit ./target -m "src commit"
+ 1642  git commit pom.xml -m "src commit"
+ 1643  git commit ./pom.xml -m "src commit"
+ 1644  git 
+ 1645  git commit -m "src commit" -- ./src
+ 1646  git commit -m "src commit" src
+ 1648  git commit -m "src commit" src
+ 1649  git commit -m "src commit" -- ./src
+ 1650  git commit -m "src commit" ./src
+ 1656  cp ../ScalaApacheCXFService/.gitignore ./
+ 1660  vim .gitignore 
+ 1661  git init
+ 1662  git add .
+ 1663  git -v
+ 1664  git version
+ 1665  git add .
+ 1666  git commit -m "test commit"
+ 1669  git clone ../GitTest/.git ./
+ 1673  git status
+ 1674  git branch
+ 1699  cp /media/New\ Volume/Software\ Programs/sampleCXFService/.gitignore ./
+ 1702  vim .gitignore 
+ 1703  git init
+ 1704  git add .
+ 1705  git commit -am "scala apache cxf webservice sample"
+ 1706  cp ./.gitignore ./
+ 1707  cp ./.gitignore ../
+ 1711  cp ../.gitignore ./
+ 1713  git init
+ 1714  git add .
+ 1715  git commit -am "scala apache cxf webservice sample"
+ 1716  git branch
+ 1717  git status
+ 1718  git checkout 
+ 1719  git branch development
+ 1720  git branch
+ 1721  git
+ 1722  git checkout development 
+ 1723  git status
+ 1724  git remote add origin git@github.com:hariharank12@ScalaApacheCXFWebserviceSample.git
+ 1725  git push -u origin development 
+ 1726  git add README.md
+ 1728  git add README.md
+ 1729  git commit -am "adding readme for github"
+ 1730  git remote add origin https://github.com/hariharank12/Scala-Apache-CXF-Webservice-Sample.git
+ 1731  git remote rm origin
+ 1732  git remote add origin https://github.com/hariharank12/Scala-Apache-CXF-Webservice-Sample.git
+ 1734  git branch master 
+ 1735  git branch
+ 1736  git checkout master
+ 1737  git status
+ 1739  git status
+ 1741  git push -u origin master
+ 1742  git branch
+ 1743  vim .git/config 
+ 1744  vim .git/config /media/New\ Volume/git_config
+ 1745  cp .git/config /media/New\ Volume/git_config
+ 1746  vim .git/config 
+ 1747  git push -u origin master
+ 1748  git push -u origin development 
+ 1762  git 
+ 1765  git diff master development 
+ 1767  git branch
+ 1768  git checkout -b development 
+ 1769  git branch development 
+ 1770  git branch
+ 1771  git checkout development 
+ 1772  git status 
+ 1773  git commit -m "added override keyword to scala impl"
+ 1774  git commit -am "added override keyword to scala impl"
+ 1775  git checkout master 
+ 1776  git merge development 
+ 1777  git status
+ 1778  git checkout 
+ 1779  git checkout master 
+ 1780  git push -u origin master
+ 1788  history | grep git
+ 1792  git clone https://github.com/arktekk/sbt-cxf.git
+ 1979  git clone https://github.com/SpringSource/spring-integration-dsl-scala.git
+ 1999  history | grep git
+ 2004  history | grep git
+ 2005  history | grep git > git_gitHubCommands.txt

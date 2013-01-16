@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/integration"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:stream="http://www.springframework.org/schema/integration/stream"
+	xmlns:si="http://www.springframework.org/schema/integration"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                                 http://www.springframework.org/schema/beans/spring-beans.xsd
+                                 http://www.springframework.org/schema/context
+                                 http://www.springframework.org/schema/context/spring-context.xsd
+                                 http://www.springframework.org/schema/integration
+                                 http://www.springframework.org/schema/integration/spring-integration.xsd
+                                 http://www.springframework.org/schema/integration/stream
+                                 http://www.springframework.org/schema/integration/stream/spring-integration-stream.xsd">
+
+	<beans:bean id="filter" class="hari.home.springIntegration.scalaDSL.Filter" />
+	
+	<beans:bean id="transformer"
+		class="hari.home.springIntegration.scalaDSL.Transformer" />
+		
+	<beans:bean id="consolePrinter"
+		class="hari.home.springIntegration.scalaDSL.ConsolePrinter" />
+
+	<si:channel id="input" />
+
+	<si:channel id="transformChannel">
+	
+	</si:channel>
+
+	<si:channel id="output">
+		
+	</si:channel>
+
+	<!-- <si:poller max-messages-per-poll="5" id="defaultPoller"
+		default="true">
+		 <si:interval-trigger interval="30000" />  
+	</si:poller>  -->
+
+	<si:gateway id="gateway"
+		service-interface="hari.home.springIntegration.SpringIntegration.Gateway"
+		default-request-channel="input" />
+
+	<si:filter input-channel="input" output-channel="transformChannel"
+		ref="filter" method="trap" />
+
+<!-- 	<si:service-activator input-channel="transformChannel"
+		ref="consolePrinter" method="display" /> -->
+
+	<si:transformer input-channel="transformChannel"
+		output-channel="output" ref="transformer" method="transform" />
+
+	<si:service-activator input-channel="output"
+		ref="consolePrinter" method="display" />
+
+</beans:beans>
+   
