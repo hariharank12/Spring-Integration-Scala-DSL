@@ -7,5 +7,4 @@ Spring Integration using Scala DSL Sample
 
 	mvn clean install -DskipTests
 
-<br>
 - Simply run the file BootstrapScala.scala as a scala Applicaiton
